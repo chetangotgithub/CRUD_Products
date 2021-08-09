@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>New Products</h1>
+    <form action="/products" method="POST">
+        <label for="name">Enter name</label>
+        <input type="text" name="name" id="name">
+        <label for="price">Enter price</label>
+        <input type="text" name="price" id="price">
+        <label for="catogory">Select Catogory</label>
+        <select name="catogory" id="catogory">
+
+            <option value="fruit">fruit</option>
+            <option value="vegetable">vegetable</option>
+            <option value="dairy">dairy</option>
+        </select>
+        <button>submit</button>
+    </form>
+    <a href="/products">Cancle</a>
+</body>
+</html>
