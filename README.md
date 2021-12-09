@@ -1,5 +1,7 @@
 # CRUD Operation
-The project is to practice CRUD operation on Website
+The project is to practice CRUD operation in Backend
+<br />
+"MongoDb" database is used and "Node.js" as backend is used
 <br />
 CRUD operation are performed Including:
 <br />
